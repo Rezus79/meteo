@@ -1,13 +1,26 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
+    background-image: url('img/meteo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
 }
 
-h1 {
-    color: #333;
+#info-meteo {
+    margin-top: 20px;
+    font-size: 18px;
 }
 
-#weather-info {
+#icone {
+    margin-top: 20px;
+}
+
+#temperature {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#loc {
     margin-top: 20px;
     font-size: 18px;
 }
