@@ -23,6 +23,10 @@ document.addEventListener("DOMContentLoaded", function () {
                         temperature.innerHTML = ` ${data.main.temp} ° C`;
                         const localisation = document.getElementById("loc");
                         localisation.innerHTML = ` ${ville}`;
+                        const humide = document.getElementById("humide");
+                        humide.innerHTML = `${data.main.humidity} %`;
+                        const ressenti = document.getElementById("ressenti");
+                        ressenti.innerHTML = ` ${data.main.feels_like}° C `
                     })
                     .catch(error => {
                         console.error("Erreur lors de la récupération des données météo : " + error);
