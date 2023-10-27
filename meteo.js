@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const apiKey = data.apiKey;
             
             // Fonction pour récupérer les données météo
-            function fetchWeatherData() {
+            function meteoData() {
                 const ville = data.ville; 
                 const apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${ville}&APPID=${apiKey}&units=metric&lang=fr`;
                 
@@ -33,11 +33,11 @@ document.addEventListener("DOMContentLoaded", function () {
                     });
             }
 
-            // Appel initial pour afficher les données météo
-            fetchWeatherData();
+            // Appel initial 
+            meteoData();
 
-            // Mise à jour des données météo toutes les heures, 3600000 ms = 1 heure
-            setInterval(fetchWeatherData, 3600000); 
+            // MAJ des données météo, 3600000 ms = 1 heure
+            setInterval(meteoData, 3600000); 
         })
         .catch(error => {
             console.error("Erreur lors de la récupération de la clé API : " + error);
