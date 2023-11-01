@@ -20,13 +20,13 @@ document.addEventListener("DOMContentLoaded", function () {
                         const icone = document.getElementById("icone");
                         icone.innerHTML = `<img src=https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png></img>`;
                         const temperature = document.getElementById("temperature");
-                        temperature.innerHTML = ` ${data.main.temp} ° C`;
+                        temperature.innerHTML = ` ${data.main.temp}°C`;
                         const localisation = document.getElementById("loc");
                         localisation.innerHTML = ` ${ville}`;
                         const humide = document.getElementById("humide");
-                        humide.innerHTML = `${data.main.humidity} %`;
+                        humide.innerHTML = `${data.main.humidity}%`;
                         const ressenti = document.getElementById("ressenti");
-                        ressenti.innerHTML = ` ${data.main.feels_like}° C `
+                        ressenti.innerHTML = ` ${data.main.feels_like}°C `
                     })
                     .catch(error => {
                         console.error("Erreur lors de la récupération des données météo : " + error);
@@ -43,3 +43,4 @@ document.addEventListener("DOMContentLoaded", function () {
             console.error("Erreur lors de la récupération de la clé API : " + error);
         });
 });
+

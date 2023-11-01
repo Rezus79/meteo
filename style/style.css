@@ -33,12 +33,9 @@ body {
     width: 10em;
     height: 4em;
     margin: 0 ;
-    text-align: unset;
-    background-image: url('img/iconeloc.png');
-    background-size: 2em;
-    background-repeat: no-repeat;
-    background-position-y: 1em;
-    background-position-x: 1em;
+    text-align: center;
+    
+
 } 
 
 #ressenti{
@@ -71,23 +68,19 @@ body {
 }
 
 .cadre2{
-    display: inline-block;
+    display: flex;
     border: 2px solid #333;
     
     border-width: 4px 2px 0px 0px;
     width: 10em;
     height: 4em;
     margin: 0 ;
-    text-align: unset;
-    background-image: url('img/iconeter.jpg');
-    background-size: 2em;
-    background-repeat: no-repeat;
-    background-position-y: 1em;
-    background-position-x: 1em;
+    text-align: center;
+    align-items: center;
 }
 
 .cadre3{
-    display: inline-block;
+    display: flex;
     border: 2px solid #333;
     
     border-width: 4px 0px 0px 2px;
@@ -95,9 +88,31 @@ body {
     height: 4em;
     margin: 0 ;
     text-align: center;
-    background-image: url('img/iconehum.jpg');
-    background-size: 2em;
-    background-repeat: no-repeat;
-    background-position-y: 1em;
-    background-position-x: 1em;
+    align-items: center;
+    
 }
+
+.icone2{
+    display: inline-block;
+    margin-left: 2em;
+}
+.icone1{
+    display: inline-block;
+    
+}
+.texte{
+    display: inline-block;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+.texte2{
+    display: inline-block;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+.texte1{
+    display: inline-block;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
