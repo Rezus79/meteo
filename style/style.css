@@ -1,6 +1,6 @@
 body {
-    margin-top: 10em;
-    font-family: Arial, sans-serif;
+    margin-top: 8em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
     text-align: center;
     background-image: url('img/font.jpg');
     background-size: cover;
@@ -101,14 +101,17 @@ body {
     align-items: center;
     
 }
-
+.icone4{
+    display: inline-block;
+    margin-left: 2em;
+}
 .icone3{
     display: inline-block;
     margin-left: 0em;
 }
 .icone2{
     display: inline-block;
-    margin-left: 2em;
+    margin-left: 1em;
 }
 .icone1{
     display: inline-block;
