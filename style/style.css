@@ -37,6 +37,16 @@ body {
     
 
 } 
+#cadre5{
+    display: inline-block;
+    border: 0px  ;
+    width: 10em;
+    height: 4em;
+    margin: auto ;
+    text-align: center;
+    
+
+} 
 
 #ressenti{
     margin-top: 20px;
@@ -92,6 +102,10 @@ body {
     
 }
 
+.icone3{
+    display: inline-block;
+    margin-left: 0em;
+}
 .icone2{
     display: inline-block;
     margin-left: 2em;
@@ -107,12 +121,12 @@ body {
 }
 .texte2{
     display: inline-block;
-    margin-left: 1em;
+    margin-left: 0em;
     margin-bottom: 1em;
 }
 .texte1{
     display: inline-block;
-    margin-left: 1em;
+    margin-left: 0em;
     margin-bottom: 1em;
 }
 
