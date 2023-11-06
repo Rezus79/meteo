@@ -27,27 +27,6 @@ body {
     
 }
 
-#cadre4{
-    display: inline-block;
-    border: 0px  ;
-    width: 10em;
-    height: 4em;
-    margin: 0 ;
-    text-align: center;
-    
-
-} 
-#cadre5{
-    display: inline-block;
-    border: 0px  ;
-    width: 10em;
-    height: 4em;
-    margin: auto ;
-    text-align: center;
-    
-
-} 
-
 #ressenti{
     margin-top: 20px;
     font-size: 18px;
@@ -63,6 +42,14 @@ body {
     border-width: 0px 0px 2px 0px;
 }
 
+
+
+.petitcadre{
+
+    display: flex;
+    margin-top: 2em;
+}
+
 .cadre1{
     border: 4px solid #333;
     border-radius: 5%;
@@ -71,20 +58,12 @@ body {
     text-align: center;
 }
 
-.petitcadre{
-
-    display: flex;
-    margin-top: 2em;
-}
-
 .cadre2{
     display: flex;
     border: 2px solid #333;
-    
     border-width: 4px 2px 0px 0px;
     width: 10em;
     height: 4em;
-    margin: 0 ;
     text-align: center;
     align-items: center;
 }
@@ -96,40 +75,62 @@ body {
     border-width: 4px 0px 0px 2px;
     width: 10em;
     height: 4em;
-    margin: 0 ;
     text-align: center;
     align-items: center;
     
 }
-.icone4{
+
+#cadre4{
     display: inline-block;
-    margin-left: 2em;
-}
-.icone3{
+    border: 0px  ;
+    width: 10em;
+    height: 4em;
+    text-align: center;
+} 
+
+#cadre5{
     display: inline-block;
-    margin-left: 0em;
+    border: 0px  ;
+    width: 10em;
+    height: 4em;
+    margin: auto ;
+    text-align: center;
+    
+
+} 
+
+.icone1{
+    display: inline-block; 
 }
+
 .icone2{
     display: inline-block;
     margin-left: 1em;
 }
-.icone1{
+
+.icone3{
     display: inline-block;
-    
+
 }
+
+.icone4{
+    display: inline-block;
+    margin-left: 2em;
+}
+
 .texte{
     display: inline-block;
     margin-left: 1em;
     margin-bottom: 1em;
 }
-.texte2{
-    display: inline-block;
-    margin-left: 0em;
-    margin-bottom: 1em;
-}
+
 .texte1{
     display: inline-block;
-    margin-left: 0em;
+}
+
+.texte2{
+    display: inline-block;
+
     margin-bottom: 1em;
 }
 
